@@ -1,0 +1,10 @@
+apiRules:
+- include:
+    uidRegex: ^DrawBug
+    type: Namespace
+- exclude:
+    uidRegex: ^UnityEngine
+    type: Namespace
+- exclude:
+    uidRegex: ^System
+    type: Namespace
