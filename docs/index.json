@@ -267,7 +267,7 @@
   "api/DrawBug.html": {
     "href": "api/DrawBug.html",
     "title": "Namespace DrawBug | DrawBug",
-    "keywords": "Namespace DrawBug Classes DrawPolygon DrawText DrawWire Drawbug TextElement Structs DrawingStyle Enums DrawMethod TextPivot"
+    "keywords": "Namespace DrawBug Classes DrawPolygon DrawText DrawWire Drawbug Structs DrawingStyle Enums DrawMethod TextPivot"
   },
   "api/index.html": {
     "href": "api/index.html",
