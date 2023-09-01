@@ -108,15 +108,15 @@ references:
   isSpec: "True"
   fullName: DrawBug.DrawPolygon.Capsule2D
   nameWithType: DrawPolygon.Capsule2D
-- uid: DrawBug.DrawPolygon.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name: Circle(Vector3, float, Quaternion, int, Color?, float, bool)
-  href: api/DrawBug.DrawPolygon.html#DrawBug_DrawPolygon_Circle_UnityEngine_Vector3_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
-  commentId: M:DrawBug.DrawPolygon.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name.vb: Circle(Vector3, Single, Quaternion, Integer, Color?, Single, Boolean)
-  fullName: DrawBug.DrawPolygon.Circle(UnityEngine.Vector3, float, UnityEngine.Quaternion, int, UnityEngine.Color?, float, bool)
-  fullName.vb: DrawBug.DrawPolygon.Circle(UnityEngine.Vector3, Single, UnityEngine.Quaternion, Integer, UnityEngine.Color?, Single, Boolean)
-  nameWithType: DrawPolygon.Circle(Vector3, float, Quaternion, int, Color?, float, bool)
-  nameWithType.vb: DrawPolygon.Circle(Vector3, Single, Quaternion, Integer, Color?, Single, Boolean)
+- uid: DrawBug.DrawPolygon.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name: Circle(Vector3, Quaternion, float, int, Color?, float, bool)
+  href: api/DrawBug.DrawPolygon.html#DrawBug_DrawPolygon_Circle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:DrawBug.DrawPolygon.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: Circle(Vector3, Quaternion, Single, Integer, Color?, Single, Boolean)
+  fullName: DrawBug.DrawPolygon.Circle(UnityEngine.Vector3, UnityEngine.Quaternion, float, int, UnityEngine.Color?, float, bool)
+  fullName.vb: DrawBug.DrawPolygon.Circle(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Integer, UnityEngine.Color?, Single, Boolean)
+  nameWithType: DrawPolygon.Circle(Vector3, Quaternion, float, int, Color?, float, bool)
+  nameWithType.vb: DrawPolygon.Circle(Vector3, Quaternion, Single, Integer, Color?, Single, Boolean)
 - uid: DrawBug.DrawPolygon.Circle*
   name: Circle
   href: api/DrawBug.DrawPolygon.html#DrawBug_DrawPolygon_Circle_
@@ -217,15 +217,15 @@ references:
   isSpec: "True"
   fullName: DrawBug.DrawPolygon.Enabled
   nameWithType: DrawPolygon.Enabled
-- uid: DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name: HollowCircle(Vector3, float, float, Quaternion, int, Color?, float, bool)
-  href: api/DrawBug.DrawPolygon.html#DrawBug_DrawPolygon_HollowCircle_UnityEngine_Vector3_System_Single_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
-  commentId: M:DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name.vb: HollowCircle(Vector3, Single, Single, Quaternion, Integer, Color?, Single, Boolean)
-  fullName: DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3, float, float, UnityEngine.Quaternion, int, UnityEngine.Color?, float, bool)
-  fullName.vb: DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3, Single, Single, UnityEngine.Quaternion, Integer, UnityEngine.Color?, Single, Boolean)
-  nameWithType: DrawPolygon.HollowCircle(Vector3, float, float, Quaternion, int, Color?, float, bool)
-  nameWithType.vb: DrawPolygon.HollowCircle(Vector3, Single, Single, Quaternion, Integer, Color?, Single, Boolean)
+- uid: DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name: HollowCircle(Vector3, Quaternion, float, float, int, Color?, float, bool)
+  href: api/DrawBug.DrawPolygon.html#DrawBug_DrawPolygon_HollowCircle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: HollowCircle(Vector3, Quaternion, Single, Single, Integer, Color?, Single, Boolean)
+  fullName: DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3, UnityEngine.Quaternion, float, float, int, UnityEngine.Color?, float, bool)
+  fullName.vb: DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Single, Integer, UnityEngine.Color?, Single, Boolean)
+  nameWithType: DrawPolygon.HollowCircle(Vector3, Quaternion, float, float, int, Color?, float, bool)
+  nameWithType.vb: DrawPolygon.HollowCircle(Vector3, Quaternion, Single, Single, Integer, Color?, Single, Boolean)
 - uid: DrawBug.DrawPolygon.HollowCircle*
   name: HollowCircle
   href: api/DrawBug.DrawPolygon.html#DrawBug_DrawPolygon_HollowCircle_
@@ -411,6 +411,22 @@ references:
   isSpec: "True"
   fullName: DrawBug.DrawWire.Arrow
   nameWithType: DrawWire.Arrow
+- uid: DrawBug.DrawWire.BezierCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name: BezierCurve(Vector3, Vector3, Vector3, Vector3, int, Color?, float, bool)
+  href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_BezierCurve_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:DrawBug.DrawWire.BezierCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: BezierCurve(Vector3, Vector3, Vector3, Vector3, Integer, Color?, Single, Boolean)
+  fullName: DrawBug.DrawWire.BezierCurve(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, int, UnityEngine.Color?, float, bool)
+  fullName.vb: DrawBug.DrawWire.BezierCurve(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, Integer, UnityEngine.Color?, Single, Boolean)
+  nameWithType: DrawWire.BezierCurve(Vector3, Vector3, Vector3, Vector3, int, Color?, float, bool)
+  nameWithType.vb: DrawWire.BezierCurve(Vector3, Vector3, Vector3, Vector3, Integer, Color?, Single, Boolean)
+- uid: DrawBug.DrawWire.BezierCurve*
+  name: BezierCurve
+  href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_BezierCurve_
+  commentId: Overload:DrawBug.DrawWire.BezierCurve
+  isSpec: "True"
+  fullName: DrawBug.DrawWire.BezierCurve
+  nameWithType: DrawWire.BezierCurve
 - uid: DrawBug.DrawWire.Bounds(UnityEngine.Bounds,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
   name: Bounds(Bounds, Color?, float, bool)
   href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_Bounds_UnityEngine_Bounds_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
@@ -472,15 +488,15 @@ references:
   isSpec: "True"
   fullName: DrawBug.DrawWire.Capsule2D
   nameWithType: DrawWire.Capsule2D
-- uid: DrawBug.DrawWire.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name: Circle(Vector3, float, Quaternion, int, Color?, float, bool)
-  href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_Circle_UnityEngine_Vector3_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
-  commentId: M:DrawBug.DrawWire.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name.vb: Circle(Vector3, Single, Quaternion, Integer, Color?, Single, Boolean)
-  fullName: DrawBug.DrawWire.Circle(UnityEngine.Vector3, float, UnityEngine.Quaternion, int, UnityEngine.Color?, float, bool)
-  fullName.vb: DrawBug.DrawWire.Circle(UnityEngine.Vector3, Single, UnityEngine.Quaternion, Integer, UnityEngine.Color?, Single, Boolean)
-  nameWithType: DrawWire.Circle(Vector3, float, Quaternion, int, Color?, float, bool)
-  nameWithType.vb: DrawWire.Circle(Vector3, Single, Quaternion, Integer, Color?, Single, Boolean)
+- uid: DrawBug.DrawWire.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name: Circle(Vector3, Quaternion, float, int, Color?, float, bool)
+  href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_Circle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:DrawBug.DrawWire.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: Circle(Vector3, Quaternion, Single, Integer, Color?, Single, Boolean)
+  fullName: DrawBug.DrawWire.Circle(UnityEngine.Vector3, UnityEngine.Quaternion, float, int, UnityEngine.Color?, float, bool)
+  fullName.vb: DrawBug.DrawWire.Circle(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Integer, UnityEngine.Color?, Single, Boolean)
+  nameWithType: DrawWire.Circle(Vector3, Quaternion, float, int, Color?, float, bool)
+  nameWithType.vb: DrawWire.Circle(Vector3, Quaternion, Single, Integer, Color?, Single, Boolean)
 - uid: DrawBug.DrawWire.Circle*
   name: Circle
   href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_Circle_
@@ -597,15 +613,15 @@ references:
   isSpec: "True"
   fullName: DrawBug.DrawWire.Enabled
   nameWithType: DrawWire.Enabled
-- uid: DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name: HollowCircle(Vector3, float, float, Quaternion, int, Color?, float, bool)
-  href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_HollowCircle_UnityEngine_Vector3_System_Single_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
-  commentId: M:DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
-  name.vb: HollowCircle(Vector3, Single, Single, Quaternion, Integer, Color?, Single, Boolean)
-  fullName: DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3, float, float, UnityEngine.Quaternion, int, UnityEngine.Color?, float, bool)
-  fullName.vb: DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3, Single, Single, UnityEngine.Quaternion, Integer, UnityEngine.Color?, Single, Boolean)
-  nameWithType: DrawWire.HollowCircle(Vector3, float, float, Quaternion, int, Color?, float, bool)
-  nameWithType.vb: DrawWire.HollowCircle(Vector3, Single, Single, Quaternion, Integer, Color?, Single, Boolean)
+- uid: DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name: HollowCircle(Vector3, Quaternion, float, float, int, Color?, float, bool)
+  href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_HollowCircle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: HollowCircle(Vector3, Quaternion, Single, Single, Integer, Color?, Single, Boolean)
+  fullName: DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3, UnityEngine.Quaternion, float, float, int, UnityEngine.Color?, float, bool)
+  fullName.vb: DrawBug.DrawWire.HollowCircle(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Single, Integer, UnityEngine.Color?, Single, Boolean)
+  nameWithType: DrawWire.HollowCircle(Vector3, Quaternion, float, float, int, Color?, float, bool)
+  nameWithType.vb: DrawWire.HollowCircle(Vector3, Quaternion, Single, Single, Integer, Color?, Single, Boolean)
 - uid: DrawBug.DrawWire.HollowCircle*
   name: HollowCircle
   href: api/DrawBug.DrawWire.html#DrawBug_DrawWire_HollowCircle_
@@ -811,6 +827,22 @@ references:
   isSpec: "True"
   fullName: DrawBug.Drawbug.Arrow
   nameWithType: Drawbug.Arrow
+- uid: DrawBug.Drawbug.BezierCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name: BezierCurve(Vector3, Vector3, Vector3, Vector3, int, Color?, float, bool)
+  href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_BezierCurve_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_
+  commentId: M:DrawBug.Drawbug.BezierCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)
+  name.vb: BezierCurve(Vector3, Vector3, Vector3, Vector3, Integer, Color?, Single, Boolean)
+  fullName: DrawBug.Drawbug.BezierCurve(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, int, UnityEngine.Color?, float, bool)
+  fullName.vb: DrawBug.Drawbug.BezierCurve(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, Integer, UnityEngine.Color?, Single, Boolean)
+  nameWithType: Drawbug.BezierCurve(Vector3, Vector3, Vector3, Vector3, int, Color?, float, bool)
+  nameWithType.vb: Drawbug.BezierCurve(Vector3, Vector3, Vector3, Vector3, Integer, Color?, Single, Boolean)
+- uid: DrawBug.Drawbug.BezierCurve*
+  name: BezierCurve
+  href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_BezierCurve_
+  commentId: Overload:DrawBug.Drawbug.BezierCurve
+  isSpec: "True"
+  fullName: DrawBug.Drawbug.BezierCurve
+  nameWithType: Drawbug.BezierCurve
 - uid: DrawBug.Drawbug.Bounds(UnityEngine.Bounds,System.Nullable{DrawBug.DrawingStyle},System.Single)
   name: Bounds(Bounds, DrawingStyle?, float)
   href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_Bounds_UnityEngine_Bounds_System_Nullable_DrawBug_DrawingStyle__System_Single_
@@ -859,15 +891,15 @@ references:
   isSpec: "True"
   fullName: DrawBug.Drawbug.Capsule2D
   nameWithType: Drawbug.Capsule2D
-- uid: DrawBug.Drawbug.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
-  name: Circle(Vector3, float, Quaternion, int, DrawingStyle?, float)
-  href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_Circle_UnityEngine_Vector3_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_
-  commentId: M:DrawBug.Drawbug.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
-  name.vb: Circle(Vector3, Single, Quaternion, Integer, DrawingStyle?, Single)
-  fullName: DrawBug.Drawbug.Circle(UnityEngine.Vector3, float, UnityEngine.Quaternion, int, DrawBug.DrawingStyle?, float)
-  fullName.vb: DrawBug.Drawbug.Circle(UnityEngine.Vector3, Single, UnityEngine.Quaternion, Integer, DrawBug.DrawingStyle?, Single)
-  nameWithType: Drawbug.Circle(Vector3, float, Quaternion, int, DrawingStyle?, float)
-  nameWithType.vb: Drawbug.Circle(Vector3, Single, Quaternion, Integer, DrawingStyle?, Single)
+- uid: DrawBug.Drawbug.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
+  name: Circle(Vector3, Quaternion, float, int, DrawingStyle?, float)
+  href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_Circle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_
+  commentId: M:DrawBug.Drawbug.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
+  name.vb: Circle(Vector3, Quaternion, Single, Integer, DrawingStyle?, Single)
+  fullName: DrawBug.Drawbug.Circle(UnityEngine.Vector3, UnityEngine.Quaternion, float, int, DrawBug.DrawingStyle?, float)
+  fullName.vb: DrawBug.Drawbug.Circle(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Integer, DrawBug.DrawingStyle?, Single)
+  nameWithType: Drawbug.Circle(Vector3, Quaternion, float, int, DrawingStyle?, float)
+  nameWithType.vb: Drawbug.Circle(Vector3, Quaternion, Single, Integer, DrawingStyle?, Single)
 - uid: DrawBug.Drawbug.Circle*
   name: Circle
   href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_Circle_
@@ -1007,15 +1039,15 @@ references:
   isSpec: "True"
   fullName: DrawBug.Drawbug.GetDrawWire
   nameWithType: Drawbug.GetDrawWire
-- uid: DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
-  name: HollowCircle(Vector3, float, float, Quaternion, int, DrawingStyle?, float)
-  href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_HollowCircle_UnityEngine_Vector3_System_Single_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_
-  commentId: M:DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
-  name.vb: HollowCircle(Vector3, Single, Single, Quaternion, Integer, DrawingStyle?, Single)
-  fullName: DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3, float, float, UnityEngine.Quaternion, int, DrawBug.DrawingStyle?, float)
-  fullName.vb: DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3, Single, Single, UnityEngine.Quaternion, Integer, DrawBug.DrawingStyle?, Single)
-  nameWithType: Drawbug.HollowCircle(Vector3, float, float, Quaternion, int, DrawingStyle?, float)
-  nameWithType.vb: Drawbug.HollowCircle(Vector3, Single, Single, Quaternion, Integer, DrawingStyle?, Single)
+- uid: DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
+  name: HollowCircle(Vector3, Quaternion, float, float, int, DrawingStyle?, float)
+  href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_HollowCircle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_
+  commentId: M:DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)
+  name.vb: HollowCircle(Vector3, Quaternion, Single, Single, Integer, DrawingStyle?, Single)
+  fullName: DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3, UnityEngine.Quaternion, float, float, int, DrawBug.DrawingStyle?, float)
+  fullName.vb: DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Single, Integer, DrawBug.DrawingStyle?, Single)
+  nameWithType: Drawbug.HollowCircle(Vector3, Quaternion, float, float, int, DrawingStyle?, float)
+  nameWithType.vb: Drawbug.HollowCircle(Vector3, Quaternion, Single, Single, Integer, DrawingStyle?, Single)
 - uid: DrawBug.Drawbug.HollowCircle*
   name: HollowCircle
   href: api/DrawBug.Drawbug.html#DrawBug_Drawbug_HollowCircle_
@@ -1207,6 +1239,25 @@ references:
   commentId: T:DrawBug.DrawingStyle
   fullName: DrawBug.DrawingStyle
   nameWithType: DrawingStyle
+- uid: DrawBug.DrawingStyle.#ctor(UnityEngine.Color,UnityEngine.Color,DrawBug.DrawMethod,System.Boolean)
+  name: DrawingStyle(Color, Color, DrawMethod, bool)
+  href: api/DrawBug.DrawingStyle.html#DrawBug_DrawingStyle__ctor_UnityEngine_Color_UnityEngine_Color_DrawBug_DrawMethod_System_Boolean_
+  commentId: M:DrawBug.DrawingStyle.#ctor(UnityEngine.Color,UnityEngine.Color,DrawBug.DrawMethod,System.Boolean)
+  name.vb: New(Color, Color, DrawMethod, Boolean)
+  fullName: DrawBug.DrawingStyle.DrawingStyle(UnityEngine.Color, UnityEngine.Color, DrawBug.DrawMethod, bool)
+  fullName.vb: DrawBug.DrawingStyle.New(UnityEngine.Color, UnityEngine.Color, DrawBug.DrawMethod, Boolean)
+  nameWithType: DrawingStyle.DrawingStyle(Color, Color, DrawMethod, bool)
+  nameWithType.vb: DrawingStyle.New(Color, Color, DrawMethod, Boolean)
+- uid: DrawBug.DrawingStyle.#ctor*
+  name: DrawingStyle
+  href: api/DrawBug.DrawingStyle.html#DrawBug_DrawingStyle__ctor_
+  commentId: Overload:DrawBug.DrawingStyle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DrawBug.DrawingStyle.DrawingStyle
+  fullName.vb: DrawBug.DrawingStyle.New
+  nameWithType: DrawingStyle.DrawingStyle
+  nameWithType.vb: DrawingStyle.New
 - uid: DrawBug.DrawingStyle.DrawMethod
   name: DrawMethod
   href: api/DrawBug.DrawingStyle.html#DrawBug_DrawingStyle_DrawMethod
@@ -1312,6 +1363,72 @@ references:
   fullName.vb: DrawBug.DrawingStyle.CType
   nameWithType: DrawingStyle.implicit operator
   nameWithType.vb: DrawingStyle.CType
+- uid: DrawBug.Example.Basic_Example
+  name: DrawBug.Example.Basic_Example
+  href: api/DrawBug.Example.Basic_Example.html
+  commentId: N:DrawBug.Example.Basic_Example
+  fullName: DrawBug.Example.Basic_Example
+  nameWithType: DrawBug.Example.Basic_Example
+- uid: DrawBug.Example.Basic_Example.CameraController
+  name: CameraController
+  href: api/DrawBug.Example.Basic_Example.CameraController.html
+  commentId: T:DrawBug.Example.Basic_Example.CameraController
+  fullName: DrawBug.Example.Basic_Example.CameraController
+  nameWithType: CameraController
+- uid: DrawBug.Example.Basic_Example.DrawbugManager
+  name: DrawbugManager
+  href: api/DrawBug.Example.Basic_Example.DrawbugManager.html
+  commentId: T:DrawBug.Example.Basic_Example.DrawbugManager
+  fullName: DrawBug.Example.Basic_Example.DrawbugManager
+  nameWithType: DrawbugManager
+- uid: DrawBug.Example.Basic_Example.ParticleBounds
+  name: ParticleBounds
+  href: api/DrawBug.Example.Basic_Example.ParticleBounds.html
+  commentId: T:DrawBug.Example.Basic_Example.ParticleBounds
+  fullName: DrawBug.Example.Basic_Example.ParticleBounds
+  nameWithType: ParticleBounds
+- uid: DrawBug.Example.Basic_Example.Pet
+  name: Pet
+  href: api/DrawBug.Example.Basic_Example.Pet.html
+  commentId: T:DrawBug.Example.Basic_Example.Pet
+  fullName: DrawBug.Example.Basic_Example.Pet
+  nameWithType: Pet
+- uid: DrawBug.Example.Basic_Example.PlayerController
+  name: PlayerController
+  href: api/DrawBug.Example.Basic_Example.PlayerController.html
+  commentId: T:DrawBug.Example.Basic_Example.PlayerController
+  fullName: DrawBug.Example.Basic_Example.PlayerController
+  nameWithType: PlayerController
+- uid: DrawBug.Example.Basic_Example.SineWave
+  name: SineWave
+  href: api/DrawBug.Example.Basic_Example.SineWave.html
+  commentId: T:DrawBug.Example.Basic_Example.SineWave
+  fullName: DrawBug.Example.Basic_Example.SineWave
+  nameWithType: SineWave
+- uid: DrawBug.Example.Basic_Example.Triggers
+  name: Triggers
+  href: api/DrawBug.Example.Basic_Example.Triggers.html
+  commentId: T:DrawBug.Example.Basic_Example.Triggers
+  fullName: DrawBug.Example.Basic_Example.Triggers
+  nameWithType: Triggers
+- uid: DrawBug.Example.Basic_Example.Weapon
+  name: Weapon
+  href: api/DrawBug.Example.Basic_Example.Weapon.html
+  commentId: T:DrawBug.Example.Basic_Example.Weapon
+  fullName: DrawBug.Example.Basic_Example.Weapon
+  nameWithType: Weapon
+- uid: DrawBug.Example.Static_Shapes
+  name: DrawBug.Example.Static_Shapes
+  href: api/DrawBug.Example.Static_Shapes.html
+  commentId: N:DrawBug.Example.Static_Shapes
+  fullName: DrawBug.Example.Static_Shapes
+  nameWithType: DrawBug.Example.Static_Shapes
+- uid: DrawBug.Example.Static_Shapes.RenderShapes
+  name: RenderShapes
+  href: api/DrawBug.Example.Static_Shapes.RenderShapes.html
+  commentId: T:DrawBug.Example.Static_Shapes.RenderShapes
+  fullName: DrawBug.Example.Static_Shapes.RenderShapes
+  nameWithType: RenderShapes
 - uid: DrawBug.LRUDictionary`2
   name: LRUDictionary<TK, TV>
   href: api/DrawBug.LRUDictionary-2.html
@@ -4706,22 +4823,25 @@ references:
   commentId: T:DrawBug.PhysicsExtension.PhysicsStyle
   fullName: DrawBug.PhysicsExtension.PhysicsStyle
   nameWithType: PhysicsStyle
-- uid: DrawBug.PhysicsExtension.PhysicsStyle.Create(System.Single)
-  name: Create(float)
-  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_Create_System_Single_
-  commentId: M:DrawBug.PhysicsExtension.PhysicsStyle.Create(System.Single)
-  name.vb: Create(Single)
-  fullName: DrawBug.PhysicsExtension.PhysicsStyle.Create(float)
-  fullName.vb: DrawBug.PhysicsExtension.PhysicsStyle.Create(Single)
-  nameWithType: PhysicsStyle.Create(float)
-  nameWithType.vb: PhysicsStyle.Create(Single)
-- uid: DrawBug.PhysicsExtension.PhysicsStyle.Create*
-  name: Create
-  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_Create_
-  commentId: Overload:DrawBug.PhysicsExtension.PhysicsStyle.Create
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.#ctor(System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{System.Boolean},System.Single)
+  name: PhysicsStyle(Color?, Color?, bool?, float)
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle__ctor_System_Nullable_UnityEngine_Color__System_Nullable_UnityEngine_Color__System_Nullable_System_Boolean__System_Single_
+  commentId: M:DrawBug.PhysicsExtension.PhysicsStyle.#ctor(System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{System.Boolean},System.Single)
+  name.vb: New(Color?, Color?, Boolean?, Single)
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.PhysicsStyle(UnityEngine.Color?, UnityEngine.Color?, bool?, float)
+  fullName.vb: DrawBug.PhysicsExtension.PhysicsStyle.New(UnityEngine.Color?, UnityEngine.Color?, Boolean?, Single)
+  nameWithType: PhysicsStyle.PhysicsStyle(Color?, Color?, bool?, float)
+  nameWithType.vb: PhysicsStyle.New(Color?, Color?, Boolean?, Single)
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.#ctor*
+  name: PhysicsStyle
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle__ctor_
+  commentId: Overload:DrawBug.PhysicsExtension.PhysicsStyle.#ctor
   isSpec: "True"
-  fullName: DrawBug.PhysicsExtension.PhysicsStyle.Create
-  nameWithType: PhysicsStyle.Create
+  name.vb: New
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.PhysicsStyle
+  fullName.vb: DrawBug.PhysicsExtension.PhysicsStyle.New
+  nameWithType: PhysicsStyle.PhysicsStyle
+  nameWithType.vb: PhysicsStyle.New
 - uid: DrawBug.PhysicsExtension.PhysicsStyle.Duration
   name: Duration
   href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_Duration
@@ -4770,18 +4890,54 @@ references:
   isSpec: "True"
   fullName: DrawBug.PhysicsExtension.PhysicsStyle.GetPhysicsColor
   nameWithType: PhysicsStyle.GetPhysicsColor
-- uid: DrawBug.PhysicsExtension.PhysicsStyle.HitColor
-  name: HitColor
-  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_HitColor
-  commentId: F:DrawBug.PhysicsExtension.PhysicsStyle.HitColor
-  fullName: DrawBug.PhysicsExtension.PhysicsStyle.HitColor
-  nameWithType: PhysicsStyle.HitColor
-- uid: DrawBug.PhysicsExtension.PhysicsStyle.NoHitColor
-  name: NoHitColor
-  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_NoHitColor
-  commentId: F:DrawBug.PhysicsExtension.PhysicsStyle.NoHitColor
-  fullName: DrawBug.PhysicsExtension.PhysicsStyle.NoHitColor
-  nameWithType: PhysicsStyle.NoHitColor
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor
+  name: SettingsHitColor
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_SettingsHitColor
+  commentId: P:DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor
+  nameWithType: PhysicsStyle.SettingsHitColor
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor*
+  name: SettingsHitColor
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_SettingsHitColor_
+  commentId: Overload:DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor
+  isSpec: "True"
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor
+  nameWithType: PhysicsStyle.SettingsHitColor
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor
+  name: SettingsNoHitColor
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_SettingsNoHitColor
+  commentId: P:DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor
+  nameWithType: PhysicsStyle.SettingsNoHitColor
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor*
+  name: SettingsNoHitColor
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_SettingsNoHitColor_
+  commentId: Overload:DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor
+  isSpec: "True"
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor
+  nameWithType: PhysicsStyle.SettingsNoHitColor
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.Visible
+  name: Visible
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_Visible
+  commentId: P:DrawBug.PhysicsExtension.PhysicsStyle.Visible
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.Visible
+  nameWithType: PhysicsStyle.Visible
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.Visible*
+  name: Visible
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_Visible_
+  commentId: Overload:DrawBug.PhysicsExtension.PhysicsStyle.Visible
+  isSpec: "True"
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.Visible
+  nameWithType: PhysicsStyle.Visible
+- uid: DrawBug.PhysicsExtension.PhysicsStyle.op_Implicit(DrawBug.PhysicsExtension.PhysicsStyle)~System.Boolean
+  name: implicit operator bool(PhysicsStyle)
+  href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_op_Implicit_DrawBug_PhysicsExtension_PhysicsStyle__System_Boolean
+  commentId: M:DrawBug.PhysicsExtension.PhysicsStyle.op_Implicit(DrawBug.PhysicsExtension.PhysicsStyle)~System.Boolean
+  name.vb: CType(PhysicsStyle)
+  fullName: DrawBug.PhysicsExtension.PhysicsStyle.implicit operator bool(DrawBug.PhysicsExtension.PhysicsStyle)
+  fullName.vb: DrawBug.PhysicsExtension.PhysicsStyle.CType(DrawBug.PhysicsExtension.PhysicsStyle)
+  nameWithType: PhysicsStyle.implicit operator bool(PhysicsStyle)
+  nameWithType.vb: PhysicsStyle.CType(PhysicsStyle)
 - uid: DrawBug.PhysicsExtension.PhysicsStyle.op_Implicit(DrawBug.PhysicsExtension.PhysicsStyle)~System.Single
   name: implicit operator float(PhysicsStyle)
   href: api/DrawBug.PhysicsExtension.PhysicsStyle.html#DrawBug_PhysicsExtension_PhysicsStyle_op_Implicit_DrawBug_PhysicsExtension_PhysicsStyle__System_Single
@@ -5191,25 +5347,6 @@ references:
   commentId: T:DrawBug.PolygonDrawers.PolygonDrawer
   fullName: DrawBug.PolygonDrawers.PolygonDrawer
   nameWithType: PolygonDrawer
-- uid: DrawBug.PolygonDrawers.PolygonDrawer.#ctor
-  name: PolygonDrawer()
-  href: api/DrawBug.PolygonDrawers.PolygonDrawer.html#DrawBug_PolygonDrawers_PolygonDrawer__ctor
-  commentId: M:DrawBug.PolygonDrawers.PolygonDrawer.#ctor
-  name.vb: New()
-  fullName: DrawBug.PolygonDrawers.PolygonDrawer.PolygonDrawer()
-  fullName.vb: DrawBug.PolygonDrawers.PolygonDrawer.New()
-  nameWithType: PolygonDrawer.PolygonDrawer()
-  nameWithType.vb: PolygonDrawer.New()
-- uid: DrawBug.PolygonDrawers.PolygonDrawer.#ctor*
-  name: PolygonDrawer
-  href: api/DrawBug.PolygonDrawers.PolygonDrawer.html#DrawBug_PolygonDrawers_PolygonDrawer__ctor_
-  commentId: Overload:DrawBug.PolygonDrawers.PolygonDrawer.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: DrawBug.PolygonDrawers.PolygonDrawer.PolygonDrawer
-  fullName.vb: DrawBug.PolygonDrawers.PolygonDrawer.New
-  nameWithType: PolygonDrawer.PolygonDrawer
-  nameWithType.vb: PolygonDrawer.New
 - uid: DrawBug.PolygonDrawers.PolygonDrawer.Draw(UnityEngine.Vector3[]@,System.Int32[]@,System.Object[])
   name: Draw(ref Vector3[], ref int[], params object[])
   href: api/DrawBug.PolygonDrawers.PolygonDrawer.html#DrawBug_PolygonDrawers_PolygonDrawer_Draw_UnityEngine_Vector3____System_Int32____System_Object___
@@ -5226,22 +5363,6 @@ references:
   isSpec: "True"
   fullName: DrawBug.PolygonDrawers.PolygonDrawer.Draw
   nameWithType: PolygonDrawer.Draw
-- uid: DrawBug.PolygonDrawers.PolygonDrawer.Get*
-  name: Get
-  href: api/DrawBug.PolygonDrawers.PolygonDrawer.html#DrawBug_PolygonDrawers_PolygonDrawer_Get_
-  commentId: Overload:DrawBug.PolygonDrawers.PolygonDrawer.Get
-  isSpec: "True"
-  fullName: DrawBug.PolygonDrawers.PolygonDrawer.Get
-  nameWithType: PolygonDrawer.Get
-- uid: DrawBug.PolygonDrawers.PolygonDrawer.Get``1
-  name: Get<T>()
-  href: api/DrawBug.PolygonDrawers.PolygonDrawer.html#DrawBug_PolygonDrawers_PolygonDrawer_Get__1
-  commentId: M:DrawBug.PolygonDrawers.PolygonDrawer.Get``1
-  name.vb: Get(Of T)()
-  fullName: DrawBug.PolygonDrawers.PolygonDrawer.Get<T>()
-  fullName.vb: DrawBug.PolygonDrawers.PolygonDrawer.Get(Of T)()
-  nameWithType: PolygonDrawer.Get<T>()
-  nameWithType.vb: PolygonDrawer.Get(Of T)()
 - uid: DrawBug.PolygonDrawers.SpherePolygonDrawer
   name: SpherePolygonDrawer
   href: api/DrawBug.PolygonDrawers.SpherePolygonDrawer.html
@@ -5545,6 +5666,110 @@ references:
   isSpec: "True"
   fullName: DrawBug.TextMeshRenderer.Submit
   nameWithType: TextMeshRenderer.Submit
+- uid: DrawBug.TextMeshRenderer.TextCacheKey
+  name: TextMeshRenderer.TextCacheKey
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html
+  commentId: T:DrawBug.TextMeshRenderer.TextCacheKey
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey
+  nameWithType: TextMeshRenderer.TextCacheKey
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.#ctor(System.String,System.Single,TMPro.TMP_FontAsset)
+  name: TextCacheKey(string, float, TMP_FontAsset)
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey__ctor_System_String_System_Single_TMPro_TMP_FontAsset_
+  commentId: M:DrawBug.TextMeshRenderer.TextCacheKey.#ctor(System.String,System.Single,TMPro.TMP_FontAsset)
+  name.vb: New(String, Single, TMP_FontAsset)
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.TextCacheKey(string, float, TMPro.TMP_FontAsset)
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.New(String, Single, TMPro.TMP_FontAsset)
+  nameWithType: TextMeshRenderer.TextCacheKey.TextCacheKey(string, float, TMP_FontAsset)
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.New(String, Single, TMP_FontAsset)
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.#ctor*
+  name: TextCacheKey
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey__ctor_
+  commentId: Overload:DrawBug.TextMeshRenderer.TextCacheKey.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.TextCacheKey
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.New
+  nameWithType: TextMeshRenderer.TextCacheKey.TextCacheKey
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.New
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.Equals(DrawBug.TextMeshRenderer.TextCacheKey)
+  name: Equals(TextCacheKey)
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_Equals_DrawBug_TextMeshRenderer_TextCacheKey_
+  commentId: M:DrawBug.TextMeshRenderer.TextCacheKey.Equals(DrawBug.TextMeshRenderer.TextCacheKey)
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.Equals(DrawBug.TextMeshRenderer.TextCacheKey)
+  nameWithType: TextMeshRenderer.TextCacheKey.Equals(TextMeshRenderer.TextCacheKey)
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.Equals(System.Object)
+  name: Equals(object)
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_Equals_System_Object_
+  commentId: M:DrawBug.TextMeshRenderer.TextCacheKey.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.Equals(object)
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.Equals(Object)
+  nameWithType: TextMeshRenderer.TextCacheKey.Equals(object)
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.Equals(Object)
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.Equals*
+  name: Equals
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_Equals_
+  commentId: Overload:DrawBug.TextMeshRenderer.TextCacheKey.Equals
+  isSpec: "True"
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.Equals
+  nameWithType: TextMeshRenderer.TextCacheKey.Equals
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.GetHashCode
+  name: GetHashCode()
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_GetHashCode
+  commentId: M:DrawBug.TextMeshRenderer.TextCacheKey.GetHashCode
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.GetHashCode()
+  nameWithType: TextMeshRenderer.TextCacheKey.GetHashCode()
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.GetHashCode*
+  name: GetHashCode
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_GetHashCode_
+  commentId: Overload:DrawBug.TextMeshRenderer.TextCacheKey.GetHashCode
+  isSpec: "True"
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.GetHashCode
+  nameWithType: TextMeshRenderer.TextCacheKey.GetHashCode
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.op_Equality(DrawBug.TextMeshRenderer.TextCacheKey,DrawBug.TextMeshRenderer.TextCacheKey)
+  name: operator ==(TextCacheKey, TextCacheKey)
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_op_Equality_DrawBug_TextMeshRenderer_TextCacheKey_DrawBug_TextMeshRenderer_TextCacheKey_
+  commentId: M:DrawBug.TextMeshRenderer.TextCacheKey.op_Equality(DrawBug.TextMeshRenderer.TextCacheKey,DrawBug.TextMeshRenderer.TextCacheKey)
+  name.vb: =(TextCacheKey, TextCacheKey)
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.operator ==(DrawBug.TextMeshRenderer.TextCacheKey, DrawBug.TextMeshRenderer.TextCacheKey)
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.=(DrawBug.TextMeshRenderer.TextCacheKey, DrawBug.TextMeshRenderer.TextCacheKey)
+  nameWithType: TextMeshRenderer.TextCacheKey.operator ==(TextMeshRenderer.TextCacheKey, TextMeshRenderer.TextCacheKey)
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.=(TextMeshRenderer.TextCacheKey, TextMeshRenderer.TextCacheKey)
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.op_Equality*
+  name: operator ==
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_op_Equality_
+  commentId: Overload:DrawBug.TextMeshRenderer.TextCacheKey.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.operator ==
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.=
+  nameWithType: TextMeshRenderer.TextCacheKey.operator ==
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.=
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.op_Inequality(DrawBug.TextMeshRenderer.TextCacheKey,DrawBug.TextMeshRenderer.TextCacheKey)
+  name: operator !=(TextCacheKey, TextCacheKey)
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_op_Inequality_DrawBug_TextMeshRenderer_TextCacheKey_DrawBug_TextMeshRenderer_TextCacheKey_
+  commentId: M:DrawBug.TextMeshRenderer.TextCacheKey.op_Inequality(DrawBug.TextMeshRenderer.TextCacheKey,DrawBug.TextMeshRenderer.TextCacheKey)
+  name.vb: <>(TextCacheKey, TextCacheKey)
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.operator !=(DrawBug.TextMeshRenderer.TextCacheKey, DrawBug.TextMeshRenderer.TextCacheKey)
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.<>(DrawBug.TextMeshRenderer.TextCacheKey, DrawBug.TextMeshRenderer.TextCacheKey)
+  nameWithType: TextMeshRenderer.TextCacheKey.operator !=(TextMeshRenderer.TextCacheKey, TextMeshRenderer.TextCacheKey)
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.<>(TextMeshRenderer.TextCacheKey, TextMeshRenderer.TextCacheKey)
+- uid: DrawBug.TextMeshRenderer.TextCacheKey.op_Inequality*
+  name: operator !=
+  href: api/DrawBug.TextMeshRenderer.TextCacheKey.html#DrawBug_TextMeshRenderer_TextCacheKey_op_Inequality_
+  commentId: Overload:DrawBug.TextMeshRenderer.TextCacheKey.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: DrawBug.TextMeshRenderer.TextCacheKey.operator !=
+  fullName.vb: DrawBug.TextMeshRenderer.TextCacheKey.<>
+  nameWithType: TextMeshRenderer.TextCacheKey.operator !=
+  nameWithType.vb: TextMeshRenderer.TextCacheKey.<>
+- uid: DrawBug.TextMeshRenderer._textMeshCache
+  name: _textMeshCache
+  href: api/DrawBug.TextMeshRenderer.html#DrawBug_TextMeshRenderer__textMeshCache
+  commentId: F:DrawBug.TextMeshRenderer._textMeshCache
+  fullName: DrawBug.TextMeshRenderer._textMeshCache
+  nameWithType: TextMeshRenderer._textMeshCache
 - uid: DrawBug.TextPivot
   name: TextPivot
   href: api/DrawBug.TextPivot.html
@@ -5919,25 +6144,6 @@ references:
   commentId: T:DrawBug.WireDrawers.WireDrawer
   fullName: DrawBug.WireDrawers.WireDrawer
   nameWithType: WireDrawer
-- uid: DrawBug.WireDrawers.WireDrawer.#ctor
-  name: WireDrawer()
-  href: api/DrawBug.WireDrawers.WireDrawer.html#DrawBug_WireDrawers_WireDrawer__ctor
-  commentId: M:DrawBug.WireDrawers.WireDrawer.#ctor
-  name.vb: New()
-  fullName: DrawBug.WireDrawers.WireDrawer.WireDrawer()
-  fullName.vb: DrawBug.WireDrawers.WireDrawer.New()
-  nameWithType: WireDrawer.WireDrawer()
-  nameWithType.vb: WireDrawer.New()
-- uid: DrawBug.WireDrawers.WireDrawer.#ctor*
-  name: WireDrawer
-  href: api/DrawBug.WireDrawers.WireDrawer.html#DrawBug_WireDrawers_WireDrawer__ctor_
-  commentId: Overload:DrawBug.WireDrawers.WireDrawer.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: DrawBug.WireDrawers.WireDrawer.WireDrawer
-  fullName.vb: DrawBug.WireDrawers.WireDrawer.New
-  nameWithType: WireDrawer.WireDrawer
-  nameWithType.vb: WireDrawer.New
 - uid: DrawBug.WireDrawers.WireDrawer.Draw(UnityEngine.Vector3[]@,System.Object[])
   name: Draw(ref Vector3[], params object[])
   href: api/DrawBug.WireDrawers.WireDrawer.html#DrawBug_WireDrawers_WireDrawer_Draw_UnityEngine_Vector3____System_Object___

@@ -500,8 +500,8 @@ Default is 4096.</p>
 
   <a id="DrawBug_DrawPolygon_Circle_" data-uid="DrawBug.DrawPolygon.Circle*"></a>
 
-  <h3 id="DrawBug_DrawPolygon_Circle_UnityEngine_Vector3_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_" data-uid="DrawBug.DrawPolygon.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)">
-  Circle(Vector3, float, Quaternion, int, Color?, float, bool)
+  <h3 id="DrawBug_DrawPolygon_Circle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_" data-uid="DrawBug.DrawPolygon.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)">
+  Circle(Vector3, Quaternion, float, int, Color?, float, bool)
   
   </h3>
 
@@ -510,7 +510,7 @@ Default is 4096.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Circle(Vector3 position, float radius, Quaternion rotation, int segments = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Circle(Vector3 position, Quaternion rotation, float radius, int segments = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -518,11 +518,11 @@ Default is 4096.</p>
     <dt><code>position</code> <span class="xref">Vector3</span></dt>
     <dd><p>The position of the drawing</p>
 </dd>
-    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>The radius of the drawing</p>
-</dd>
     <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
     <dd><p>The rotation of the drawing</p>
+</dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The radius of the drawing</p>
 </dd>
     <dt><code>segments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>The number of segments in the drawing</p>
@@ -660,7 +660,7 @@ Default is 4096.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Cylinder(Vector3 position, Quaternion rotation, float radius, float height, int segments, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Cylinder(Vector3 position, Quaternion rotation, float radius, float height, int segments = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -804,8 +804,8 @@ Default is 4096.</p>
 
   <a id="DrawBug_DrawPolygon_HollowCircle_" data-uid="DrawBug.DrawPolygon.HollowCircle*"></a>
 
-  <h3 id="DrawBug_DrawPolygon_HollowCircle_UnityEngine_Vector3_System_Single_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_" data-uid="DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)">
-  HollowCircle(Vector3, float, float, Quaternion, int, Color?, float, bool)
+  <h3 id="DrawBug_DrawPolygon_HollowCircle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_" data-uid="DrawBug.DrawPolygon.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)">
+  HollowCircle(Vector3, Quaternion, float, float, int, Color?, float, bool)
   
   </h3>
 
@@ -814,7 +814,7 @@ Default is 4096.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void HollowCircle(Vector3 position, float innerRadius, float outerRadius, Quaternion rotation, int segments = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void HollowCircle(Vector3 position, Quaternion rotation, float innerRadius, float outerRadius, int segments = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -822,14 +822,14 @@ Default is 4096.</p>
     <dt><code>position</code> <span class="xref">Vector3</span></dt>
     <dd><p>The position of the drawing</p>
 </dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd><p>The rotation of the drawing</p>
+</dd>
     <dt><code>innerRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>Internal radius</p>
 </dd>
     <dt><code>outerRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>External radius</p>
-</dd>
-    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
-    <dd><p>The rotation of the drawing</p>
 </dd>
     <dt><code>segments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>The number of segments in the drawing</p>
@@ -911,7 +911,7 @@ Default is 4096.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Sphere(Vector3 position, float radius, int latitude, int longitude, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Sphere(Vector3 position, float radius, int latitude = 16, int longitude = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

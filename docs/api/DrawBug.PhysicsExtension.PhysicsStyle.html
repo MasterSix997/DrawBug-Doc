@@ -110,6 +110,47 @@
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DrawBug_PhysicsExtension_PhysicsStyle__ctor_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.#ctor*"></a>
+
+  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle__ctor_System_Nullable_UnityEngine_Color__System_Nullable_UnityEngine_Color__System_Nullable_System_Boolean__System_Single_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.#ctor(System.Nullable{UnityEngine.Color},System.Nullable{UnityEngine.Color},System.Nullable{System.Boolean},System.Single)">
+  PhysicsStyle(Color?, Color?, bool?, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PhysicsStyle(Color? hitColor = null, Color? noHitColor = null, bool? visible = null, float duration = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>hitColor</code> <span class="xref">Color</span>?</dt>
+    <dd></dd>
+    <dt><code>noHitColor</code> <span class="xref">Color</span>?</dt>
+    <dd></dd>
+    <dt><code>visible</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="fields">Fields
 </h2>
 
@@ -124,7 +165,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Duration</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly float Duration</code></pre>
   </div>
 
 
@@ -133,66 +174,6 @@
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_HitColor" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.HitColor">
-  HitColor
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color? HitColor</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Color</span>?</dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_NoHitColor" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.NoHitColor">
-  NoHitColor
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Color? NoHitColor</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Color</span>?</dt>
     <dd></dd>
   </dl>
 
@@ -270,14 +251,10 @@
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
+  <a id="DrawBug_PhysicsExtension_PhysicsStyle_SettingsHitColor_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor*"></a>
 
-
-  <a id="DrawBug_PhysicsExtension_PhysicsStyle_Create_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.Create*"></a>
-
-  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_Create_System_Single_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.Create(System.Single)">
-  Create(float)
+  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_SettingsHitColor" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.SettingsHitColor">
+  SettingsHitColor
   
   </h3>
 
@@ -285,18 +262,47 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PhysicsStyle Create(float duration)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color SettingsHitColor { get; set; }</code></pre>
   </div>
 
-  <h4 class="section">Parameters</h4>
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><span class="xref">Color</span></dt>
     <dd></dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
+
+
+
+
+
+
+
+  <a id="DrawBug_PhysicsExtension_PhysicsStyle_SettingsNoHitColor_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor*"></a>
+
+  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_SettingsNoHitColor" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.SettingsNoHitColor">
+  SettingsNoHitColor
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color SettingsNoHitColor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="DrawBug.PhysicsExtension.PhysicsStyle.html">PhysicsStyle</a></dt>
+    <dt><span class="xref">Color</span></dt>
     <dd></dd>
   </dl>
 
@@ -307,7 +313,39 @@
 
 
 
+  <a id="DrawBug_PhysicsExtension_PhysicsStyle_Visible_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.Visible*"></a>
 
+  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_Visible" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.Visible">
+  Visible
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Visible { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
 
 
   <a id="DrawBug_PhysicsExtension_PhysicsStyle_GetPhysicsColor_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.GetPhysicsColor*"></a>
@@ -348,6 +386,42 @@
 
   <h2 class="section" id="operators">Operators
 </h2>
+
+
+  <a id="DrawBug_PhysicsExtension_PhysicsStyle_op_Implicit_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.op_Implicit*"></a>
+
+  <h3 id="DrawBug_PhysicsExtension_PhysicsStyle_op_Implicit_DrawBug_PhysicsExtension_PhysicsStyle__System_Boolean" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.op_Implicit(DrawBug.PhysicsExtension.PhysicsStyle)~System.Boolean">
+  implicit operator bool(PhysicsStyle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator bool(PhysicsStyle style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>style</code> <a class="xref" href="DrawBug.PhysicsExtension.PhysicsStyle.html">PhysicsStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
   <a id="DrawBug_PhysicsExtension_PhysicsStyle_op_Implicit_" data-uid="DrawBug.PhysicsExtension.PhysicsStyle.op_Implicit*"></a>

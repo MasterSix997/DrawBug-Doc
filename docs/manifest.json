@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/ZanoKing/Documents/!Unity/DrawBug/Documentation",
+  "source_base_path": "C:/Users/ZanoKing/Documents/!Unity/DrawBug/DrawBug-Doc",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -67,6 +67,116 @@
       "output": {
         ".html": {
           "relative_path": "api/DrawBug.DrawingStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.CameraController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.DrawbugManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.DrawbugManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.ParticleBounds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.ParticleBounds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.Pet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.Pet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.PlayerController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.SineWave.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.SineWave.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.Triggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.Triggers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.Weapon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Basic_Example.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Basic_Example.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Static_Shapes.RenderShapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Static_Shapes.RenderShapes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.Example.Static_Shapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.Example.Static_Shapes.html"
         }
       },
       "version": ""
@@ -283,6 +393,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DrawBug.TextMeshRenderer.TextCacheKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DrawBug.TextMeshRenderer.TextCacheKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DrawBug.TextMeshRenderer.yml",
       "output": {
         ".html": {
@@ -466,6 +586,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/getStart.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/getStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/intro.md",
       "output": {
         ".html": {
@@ -483,6 +613,66 @@
         },
         ".json": {
           "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/image1.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/image1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/image2.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/image2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/image3.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/image3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/image4.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/image4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/image5.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/image5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/image6.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/image6.png"
         }
       },
       "version": ""

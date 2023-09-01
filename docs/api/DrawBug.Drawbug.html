@@ -137,7 +137,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool Enabled { get; set; }</code></pre>
   </div>
 
 
@@ -305,6 +305,60 @@
 
 
 
+  <a id="DrawBug_Drawbug_BezierCurve_" data-uid="DrawBug.Drawbug.BezierCurve*"></a>
+
+  <h3 id="DrawBug_Drawbug_BezierCurve_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Int32_System_Nullable_UnityEngine_Color__System_Single_System_Boolean_" data-uid="DrawBug.Drawbug.BezierCurve(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},System.Single,System.Boolean)">
+  BezierCurve(Vector3, Vector3, Vector3, Vector3, int, Color?, float, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Draw Bezier Curve</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void BezierCurve(Vector3 startPosition, Vector3 endPosition, Vector3 startTangent, Vector3 endTangent, int segments = 16, Color? color = null, float duration = 0, bool overrideMode = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startPosition</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The start point of the bezier line.</p>
+</dd>
+    <dt><code>endPosition</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The end tangent of the bezier line.</p>
+</dd>
+    <dt><code>startTangent</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The end point of the bezier line.</p>
+</dd>
+    <dt><code>endTangent</code> <span class="xref">Vector3</span></dt>
+    <dd><p>The start tangent of the bezier line.</p>
+</dd>
+    <dt><code>segments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of segments in the drawing</p>
+</dd>
+    <dt><code>color</code> <span class="xref">Color</span>?</dt>
+    <dd><p>The color of the drawing</p>
+</dd>
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The duration of the drawing</p>
+</dd>
+    <dt><code>overrideMode</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Defines whether the drawing can traverse objects</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="DrawBug_Drawbug_Bounds_" data-uid="DrawBug.Drawbug.Bounds*"></a>
 
   <h3 id="DrawBug_Drawbug_Bounds_UnityEngine_Bounds_System_Nullable_DrawBug_DrawingStyle__System_Single_" data-uid="DrawBug.Drawbug.Bounds(UnityEngine.Bounds,System.Nullable{DrawBug.DrawingStyle},System.Single)">
@@ -451,8 +505,8 @@
 
   <a id="DrawBug_Drawbug_Circle_" data-uid="DrawBug.Drawbug.Circle*"></a>
 
-  <h3 id="DrawBug_Drawbug_Circle_UnityEngine_Vector3_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_" data-uid="DrawBug.Drawbug.Circle(UnityEngine.Vector3,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)">
-  Circle(Vector3, float, Quaternion, int, DrawingStyle?, float)
+  <h3 id="DrawBug_Drawbug_Circle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_" data-uid="DrawBug.Drawbug.Circle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)">
+  Circle(Vector3, Quaternion, float, int, DrawingStyle?, float)
   
   </h3>
 
@@ -461,7 +515,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Circle(Vector3 position, float radius, Quaternion rotation, int segments = 16, DrawingStyle? style = null, float duration = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Circle(Vector3 position, Quaternion rotation, float radius, int segments = 16, DrawingStyle? style = null, float duration = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -469,11 +523,11 @@
     <dt><code>position</code> <span class="xref">Vector3</span></dt>
     <dd><p>The position of the drawing</p>
 </dd>
-    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>The radius of the drawing</p>
-</dd>
     <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
     <dd><p>The rotation of the drawing</p>
+</dd>
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The radius of the drawing</p>
 </dd>
     <dt><code>segments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>The number of segments in the drawing</p>
@@ -602,7 +656,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Cylinder(Vector3 position, Quaternion rotation, float radius, float height, int segments, DrawingStyle? style = null, float duration = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Cylinder(Vector3 position, Quaternion rotation, float radius, float height, int segments = 16, DrawingStyle? style = null, float duration = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -742,8 +796,8 @@
 
   <a id="DrawBug_Drawbug_HollowCircle_" data-uid="DrawBug.Drawbug.HollowCircle*"></a>
 
-  <h3 id="DrawBug_Drawbug_HollowCircle_UnityEngine_Vector3_System_Single_System_Single_UnityEngine_Quaternion_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_" data-uid="DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3,System.Single,System.Single,UnityEngine.Quaternion,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)">
-  HollowCircle(Vector3, float, float, Quaternion, int, DrawingStyle?, float)
+  <h3 id="DrawBug_Drawbug_HollowCircle_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_System_Int32_System_Nullable_DrawBug_DrawingStyle__System_Single_" data-uid="DrawBug.Drawbug.HollowCircle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single,System.Int32,System.Nullable{DrawBug.DrawingStyle},System.Single)">
+  HollowCircle(Vector3, Quaternion, float, float, int, DrawingStyle?, float)
   
   </h3>
 
@@ -752,7 +806,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void HollowCircle(Vector3 position, float innerRadius, float outerRadius, Quaternion rotation, int segments = 16, DrawingStyle? style = null, float duration = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void HollowCircle(Vector3 position, Quaternion rotation, float innerRadius, float outerRadius, int segments = 16, DrawingStyle? style = null, float duration = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -760,14 +814,14 @@
     <dt><code>position</code> <span class="xref">Vector3</span></dt>
     <dd><p>The position of the drawing</p>
 </dd>
+    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
+    <dd><p>The rotation of the drawing</p>
+</dd>
     <dt><code>innerRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>Internal radius</p>
 </dd>
     <dt><code>outerRadius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>External radius</p>
-</dd>
-    <dt><code>rotation</code> <span class="xref">Quaternion</span></dt>
-    <dd><p>The rotation of the drawing</p>
 </dd>
     <dt><code>segments</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd><p>The number of segments in the drawing</p>
@@ -1121,7 +1175,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Sphere(Vector3 position, float radius, int latitude, int longitude, DrawingStyle? style = null, float duration = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Sphere(Vector3 position, float radius, int latitude = 16, int longitude = 16, DrawingStyle? style = null, float duration = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
