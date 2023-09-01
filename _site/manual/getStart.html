@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>How to Get Started with DrawBug | DrawBug </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="How to Get Started with DrawBug | DrawBug ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="how-to-get-started-with-drawbug">How to Get Started with DrawBug</h1>
+
+<p>This tutorial teaches you the basics of getting started with DrawBug.</p>
+<hr>
+<h2 id="drawing-shapes">Drawing Shapes</h2>
+<p>Let's start by drawing a cube in the center of the scene.</p>
+<p>Create a new C# script in Unity and write the following code:</p>
+<pre><code class="lang-csharp">using UnityEngine;
+using DrawBug;
+
+public class Tutorial : MonoBehaviour
+{
+    private void Update()
+    {
+        Drawbug.Cube(new Vector3(0, 0, 0), Quaternion.identity, new Vector3(1, 1, 1));
+    }
+}
+</code></pre>
+<p>In your Unity scene, create a new object and add the script to it. When you hit <code>Play</code> you should see a cube in the
+scene:</p>
+<p><img src="../resources/image1.png" alt="Alt text"></p>
+<p>To position the cube in the object's position, orientation, and scale, write the following code:</p>
+<pre><code class="lang-csharp">using UnityEngine;
+using DrawBug;
+
+public class Tutorial : MonoBehaviour
+{
+    private void Update()
+    {
+        Drawbug.Cube(transform.position, transform.rotation, transform.localScale);
+    }
+}
+</code></pre>
+<p>Now you should be able to manipulate the cube by changing the object's transform.</p>
+<p><img src="../resources/image2.png" alt="Alt text"></p>
+<h2 id="changing-the-style">Changing the style</h2>
+<p>You can customize the way DrawBug draws your objects.
+Let's start by drawing a red cylinder:</p>
+<pre><code class="lang-csharp">using UnityEngine;
+using DrawBug;
+
+public class Tutorial : MonoBehaviour
+{
+    private void Update()
+    {
+        Drawbug.Cylinder(transform.position, transform.rotation, 1, 2, 32, Color.red);
+    }
+}
+</code></pre>
+<p><img src="../resources/image3.png" alt="Alt text"></p>
+<p>DrawBug accepts a DrawingStyle to draw its shapes, but what we did was pass a Color.red, because DrawBug implicitly converts it to a DrawingStyle.
+The equivalent of our code above would be:</p>
+<pre><code class="lang-csharp">Drawbug.Cylinder(transform.position, transform.rotation, 1, 2, 32, new DrawingStyle(Color.red));
+</code></pre>
+<p>Resulting in the same red cylinder.</p>
+<h3 id="available-styles">Available styles</h3>
+<p>The available styles are:</p>
+<h4 id="color-wirecolor-color-to-be-used-when-drawing-lines"><span style="color:#6093e0">Color WireColor:</span> (color to be used when drawing lines)</h4>
+<p>Example:</p>
+<pre><code class="lang-csharp">var style = new DrawingStyle
+{
+    WireColor = new Color(0, 1, 0, 1)
+};
+
+Drawbug.Cube(transform.position, transform.rotation, transform.localScale, style);
+</code></pre>
+<blockquote>
+<p>This code won't draw anything; this is because when not using implicit converters, you need to specify which method to use for drawing, such as &quot;wire&quot; for example:</p>
+</blockquote>
+<pre><code class="lang-csharp">var style = new DrawingStyle
+{
+    WireColor = new Color(0, 1, 0, 1),
+    DrawMethod = DrawMethod.Wire
+};
+</code></pre>
+<p><img src="../resources/image4.png" alt="Alt text"></p>
+<h4 id="color-solidcolor-color-to-be-used-when-drawing-solid-shapes"><span style="color:#6093e0">Color SolidColor:</span> (color to be used when drawing solid shapes)</h4>
+<pre><code class="lang-csharp">var style = new DrawingStyle
+{
+    SolidColor = new Color(0, 1, 0, 0.5f),
+    DrawMethod = DrawMethod.Solid
+};
+</code></pre>
+<p><img src="../resources/image5.png" alt="Alt text"></p>
+<h4 id="drawmethod-drawmethod-specifies-the-way-drawbug-will-render-its-shapes"><span style="color:#6093e0">DrawMethod DrawMethod:</span> (Specifies the way DrawBug will render its shapes)</h4>
+<h5 id="-wire"><span style="color:#c9365e">• Wire</span></h5>
+<pre><code class="lang-csharp">var style = new DrawingStyle
+{
+    WireColor = new Color(0, 1, 0, 1),
+    DrawMethod = DrawMethod.Wire
+};
+</code></pre>
+<p><img src="../resources/image4.png" alt="Alt text"></p>
+<h5 id="-solid"><span style="color:#c9365e">• Solid</span></h5>
+<pre><code class="lang-csharp">var style = new DrawingStyle
+{
+    SolidColor = new Color(0, 1, 0, 0.5f),
+    DrawMethod = DrawMethod.Solid
+};
+</code></pre>
+<p><img src="../resources/image5.png" alt="Alt text"></p>
+<h5 id="-both"><span style="color:#c9365e">• Both</span></h5>
+<pre><code class="lang-csharp">var style = new DrawingStyle
+{
+    WireColor = new Color(0, 1, 0, 1),
+    SolidColor = new Color(0, 1, 0, 0.5f),
+    DrawMethod = DrawMethod.Wire | DrawMethod.Solid
+};
+</code></pre>
+<p><img src="../resources/image6.png" alt="Alt text"></p>
+<h2 id="using-drawphysics">Using DrawPhysics</h2>
+<p>Casts in Unity can be confusing to understand and debug. DrawBug can simplify this by adding bounding shapes to
+check for collisions. Just replace Physics.(...) with DrawPhysics.(...).</p>
+<h4 id="unitys-default">Unity's default:</h4>
+<pre><code class="lang-csharp">private void FixedUpdate()
+{
+    Physics.Raycast(transform.position, Vector3.up, 5);
+}
+</code></pre><h4 id="using-drawphysics-1">Using DrawPhysics:</h4>
+<pre><code class="lang-csharp">private void FixedUpdate()
+{
+    DrawPhysics.Raycast(transform.position, Vector3.up, 5);
+}
+</code></pre></article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          DrawBug Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

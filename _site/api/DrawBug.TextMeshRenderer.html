@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TextMeshRenderer
+ | DrawBug </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TextMeshRenderer
+ | DrawBug ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DrawBug.TextMeshRenderer">
+
+
+
+  <h1 id="DrawBug_TextMeshRenderer" data-uid="DrawBug.TextMeshRenderer" class="text-break">
+    Class TextMeshRenderer
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DrawBug.html">DrawBug</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>DrawBug.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TextMeshRenderer</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TextMeshRenderer</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="DrawBug_TextMeshRenderer__ctor_" data-uid="DrawBug.TextMeshRenderer.#ctor*"></a>
+
+  <h3 id="DrawBug_TextMeshRenderer__ctor_TMPro_TextMeshPro_" data-uid="DrawBug.TextMeshRenderer.#ctor(TMPro.TextMeshPro)">
+  TextMeshRenderer(TextMeshPro)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshRenderer(TextMeshPro textMeshPro)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>textMeshPro</code> <span class="xref">TextMeshPro</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DrawBug_TextMeshRenderer__textMeshCache" data-uid="DrawBug.TextMeshRenderer._textMeshCache">
+  _textMeshCache
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly LRUDictionary&lt;TextMeshRenderer.TextCacheKey, Mesh&gt; _textMeshCache</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DrawBug.LRUDictionary-2.html">LRUDictionary</a>&lt;<a class="xref" href="DrawBug.TextMeshRenderer.html">TextMeshRenderer</a>.<a class="xref" href="DrawBug.TextMeshRenderer.TextCacheKey.html">TextCacheKey</a>, <span class="xref">Mesh</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DrawBug_TextMeshRenderer_CacheCapacity_" data-uid="DrawBug.TextMeshRenderer.CacheCapacity*"></a>
+
+  <h3 id="DrawBug_TextMeshRenderer_CacheCapacity" data-uid="DrawBug.TextMeshRenderer.CacheCapacity">
+  CacheCapacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Size of the underlying text mesh cache (in number of entries). If a given text mesh is not in cache
+a new one must be created by the text mesh generator backend. This is an expensive operation
+and should be avoided. Every time you ask TextDrawer to draw a new text/font-size combination,
+it needs to be generated and put back in the cache. Once the cache capacity overflows, the oldest item
+is discarded to make room for the new one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CacheCapacity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DrawBug_TextMeshRenderer_RenderElements_" data-uid="DrawBug.TextMeshRenderer.RenderElements*"></a>
+
+  <h3 id="DrawBug_TextMeshRenderer_RenderElements" data-uid="DrawBug.TextMeshRenderer.RenderElements">
+  RenderElements()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RenderElements()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DrawBug_TextMeshRenderer_Submit_" data-uid="DrawBug.TextMeshRenderer.Submit*"></a>
+
+  <h3 id="DrawBug_TextMeshRenderer_Submit_System_String_System_Single_System_Nullable_UnityEngine_Color__UnityEngine_Matrix4x4_TMPro_TMP_FontAsset_DrawBug_TextPivot_System_Boolean_System_Boolean_" data-uid="DrawBug.TextMeshRenderer.Submit(System.String,System.Single,System.Nullable{UnityEngine.Color},UnityEngine.Matrix4x4,TMPro.TMP_FontAsset,DrawBug.TextPivot,System.Boolean,System.Boolean)">
+  Submit(string, float, Color?, Matrix4x4, TMP_FontAsset, TextPivot, bool, bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Submit(string text, float fontSize, Color? color, Matrix4x4 matrix4X4, TMP_FontAsset font = null, TextPivot pivot = TextPivot.Center, bool staticRotation = false, bool staticScale = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>fontSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>color</code> <span class="xref">Color</span>?</dt>
+    <dd></dd>
+    <dt><code>matrix4X4</code> <span class="xref">Matrix4x4</span></dt>
+    <dd></dd>
+    <dt><code>font</code> <span class="xref">TMP_FontAsset</span></dt>
+    <dd></dd>
+    <dt><code>pivot</code> <a class="xref" href="DrawBug.TextPivot.html">TextPivot</a></dt>
+    <dd></dd>
+    <dt><code>staticRotation</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>staticScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          DrawBug Documentation
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
